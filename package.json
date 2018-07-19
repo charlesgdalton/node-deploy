@@ -1,0 +1,19 @@
+{
+  "name": "deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "curl": "^0.1.4",
+    "http-to-curl": "^1.4.1",
+    "request": "^2.87.0",
+    "solc": "^0.4.24",
+    "web3": "^1.0.0-beta.34"
+  }
+}
