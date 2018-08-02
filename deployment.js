@@ -18,9 +18,15 @@ console.log('Parsed everything!');
 
 web3.eth.sendTransaction({
   from: '0x00E66aE8337A77602957B4f74866C3faF6799A36', //this is bob, which is why 10.10.10.11
-  data: '0x' + bytecode
+  data: '0x' + bytecode,
+  gas: 4700000
 }).then((tx) => {
   console.log(tx.contractAddress);
 }).catch((e) => {
   console.error(`ERROR: ${e}`);
 });
+
+module.exports = {
+  bytecode,
+  abi
+}
