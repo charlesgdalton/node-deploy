@@ -7,6 +7,8 @@ var removeAccessor = function(Permissioning, username, documentId) {
     }
 
     console.log(res);
+  }).catch((e) => {
+    console.log();
   });
 };
 

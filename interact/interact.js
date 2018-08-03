@@ -86,9 +86,9 @@ if(command === 'checkpermissions') {
   checkPermissions(Permissioning, argv.userAddress, argv.documentID);
 } else if(command === 'isadmin') {
   checkPermissions(Permissioning, argv.userAddress);
-} else if(command === 'checkdoc') {
+} else if(command === 'isdoc') {
   isDoc(Permissioning, argv.documentID);
-} else if(command === 'checkuser') {
+} else if(command === 'isuser') {
   isUser(Permissioning, argv.userAddress);
 } else if(command === 'addaccessor') {
   addAccessor(Permissioning, argv.userAddress, argv.documentID);

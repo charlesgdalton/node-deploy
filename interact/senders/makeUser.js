@@ -7,6 +7,8 @@ var makeUser = function(Permissioning, username) {
     }
 
     console.log(res);
+  }).catch((e) => {
+    console.log();
   });
 };
 
